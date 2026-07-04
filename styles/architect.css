@@ -40,6 +40,11 @@ color: #131313;
   border:none;
 }
 
+main 
+{
+  max-width:1440px;
+}
+
 /* header style */
 
 .brand
@@ -89,6 +94,11 @@ color: #131313;
 .banner-image
 {
   width:100%;
+}
+
+.team
+{
+  align-items: center;
 }
 
 /* responsive media query */
