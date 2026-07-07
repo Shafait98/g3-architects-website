@@ -15,6 +15,12 @@
   display: flex;
 }
 
+
+.text-primary 
+{
+  color:#FF900E;
+}
+
 /* dark 01 */
 .text-black
 {
@@ -99,6 +105,34 @@ main
 .team
 {
   align-items: center;
+  /* margin: auto 301px; */
+  margin-top: 85px;
+  max-width: 1440px;
+  
+}
+
+.team-image-container
+{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+
+.our-feature
+{
+  margin-left: 130px;
+  max-width: 537px;
+}
+
+.feature-title
+{
+  font-size: 2.8rem;
+  font-weight: 800;
+}
+
+#quick-list
+{
+  font-weight: 500;
 }
 
 /* responsive media query */
