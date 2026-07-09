@@ -240,6 +240,7 @@ main
 
   .navbar, 
   .nav-links,
+  .feature,
   .team
   {
     flex-direction: column;
@@ -266,6 +267,15 @@ main
 {
   gap: 50px;
 }
+.img-architect
+{
+  width:100%;
+}
+#experience-badge
+{
+  margin-left: 20px;
+  margin-top: 20px;
+}
   
 }
 
@@ -273,7 +283,7 @@ main
 
 @media screen and (min-width:576px) and (max-width:992px) 
 {
-.team
+.team,.feature
 {
   flex-direction: column;
 }
