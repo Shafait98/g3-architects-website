@@ -159,3 +159,19 @@ main
 }
   
 }
+
+/* medium device */
+
+@media screen and (min-width:576px) and (max-width:992px) 
+{
+.team
+{
+  flex-direction: column;
+}
+
+.our-feature
+{
+  margin: 50px auto;
+}
+  
+}
