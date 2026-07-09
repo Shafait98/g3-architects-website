@@ -133,6 +133,13 @@ main
 {
   font-weight: 500;
 }
+/* feature section style */
+
+#feature-section-title
+{
+  border-left:5px solid #FF900E;
+  padding-left: 20px;
+}
 /* fact section style */
 .fact-container
 {
@@ -240,7 +247,7 @@ main
  .sponsor-company,.fact-container
 {
   grid-template-columns:repeat(2,1fr);
-  gap:20px;
+  gap:20px; 
   
 }
   
