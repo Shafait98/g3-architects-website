@@ -234,6 +234,21 @@ main
 {
   filter: grayscale(100%);
 }
+
+/* footer style */
+.footer-container
+{
+  max-width:1440px;
+  background-color: #FFF4E7;
+  margin: 130px auto 216px;
+  padding: 30px
+ 
+}
+
+.footer-description
+{
+  text-align: center;
+}
 /* responsive media query */
 
 @media screen and (max-width: 576px) {
@@ -299,5 +314,12 @@ main
   gap:20px; 
   
 }
+
+#experience-badge
+{
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
   
 }
